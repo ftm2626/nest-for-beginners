@@ -9,3 +9,7 @@ A.Intro
 
 B.Controllers
 -resposible for handling incoming request and returning responses to the client - for routing
+
+
+C.Providers
+- methods inside of service that holds the logic
