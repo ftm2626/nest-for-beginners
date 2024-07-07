@@ -13,3 +13,12 @@ B.Controllers
 
 C.Providers
 - methods inside of service that holds the logic
+
+D.DOT validation
+- data validation
+- input validation type
+
+    .pipes->
+    1.transformation: transform input data to the desired from
+    2.validation: validate input data
+
