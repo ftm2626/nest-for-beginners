@@ -3,8 +3,8 @@ A.Intro
 2.nest new [name]
 3.npm run start:dev
 4.nest g module [name]
-5.nest g contoller users
-6.nest g service users
+5.nest g contoller [users]
+6.nest g service [users]
 
 
 B.Controllers
@@ -19,6 +19,9 @@ D.DOT validation
 - input validation type
 
     .pipes->
-    1.transformation: transform input data to the desired from
-    2.validation: validate input data
+    .transformation: transform input data to the desired from
+    .validation: validate input data
 
+    1.create dto folder in [users]
+    2.create each dto a file
+    3.npm i --save class-validator class-transformer
