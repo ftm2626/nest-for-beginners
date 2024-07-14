@@ -20,8 +20,13 @@ D.DOT validation
 
     .pipes->
     .transformation: transform input data to the desired from
-    .validation: validate input data
+    .validation: validate input data - handle in controller
 
     1.create dto folder in [users]
     2.create each dto a file
     3.npm i --save class-validator class-transformer
+
+    .error handling
+    .http exeptions - handle in services
+
+ 
