@@ -29,4 +29,28 @@ D.DOT validation
     .error handling
     .http exeptions - handle in services
 
- 
+E.Rest Api
+    .database = neon.tech
+        go to site and create a new database
+    .orm = prisma
+        1.npm i prisma -DO
+        2.npx prisma init
+        3.replace .env files with info from neon.tech dashboard.
+        4.replace /prisma/schema.prisma with info from neon.tech dashboard.
+        *get prisma vscode extension
+        5.create the [name] model in /prima/scema.prisma
+        6.run a migration to create table from model
+        7.npx prisma migrate [dev] --name [name of migration] -> save sql statement in project as well
+
+        *.if model changes run the command below
+        8.npx prisma generate
+        9.npx prisma migrate [dev] --name [name of migration]
+
+        *.create database module and service
+        10.nest g module database -> creates the database file in /src/database/database.module.ts
+        11.nest g service database -> creates the database file in /src/database/database.service.ts
+        12.export databaseService in database.module.ts and change database.service.ts
+
+
+
+1:52:20
