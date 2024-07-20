@@ -33,7 +33,7 @@ E.Rest Api
     .database = neon.tech
         go to site and create a new database
     .orm = prisma
-        1.npm i prisma -DO
+        1.npm i prisma -D
         2.npx prisma init
         3.replace .env files with info from neon.tech dashboard.
         4.replace /prisma/schema.prisma with info from neon.tech dashboard.
@@ -50,7 +50,14 @@ E.Rest Api
         10.nest g module database -> creates the database file in /src/database/database.module.ts
         11.nest g service database -> creates the database file in /src/database/database.service.ts
         12.export databaseService in database.module.ts and change database.service.ts
+    .create rest Api
+        1.nest g resource employees -> rest api -> y
+        2.delete dto and entities folder to use prisma ones
+        3.change contoller and services content
 
 
 
-1:52:20
+
+
+
+2:10:18
