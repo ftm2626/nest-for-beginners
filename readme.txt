@@ -56,8 +56,11 @@ E.Rest Api
         3.change contoller and services content
 
 
+F.config
+    .rate limiting:
+        npm i @nestjs/throttler
+        -config in app.module.ts
 
 
 
-
-2:10:18
+2:20:00
