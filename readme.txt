@@ -61,6 +61,10 @@ F.config
         npm i @nestjs/throttler
         -config in app.module.ts
 
+    .logger
+        nest g module my-logger
+        nest g service my-logger
+        import in main.ts or individual files 
 
 
-2:20:00
+2:41:25
